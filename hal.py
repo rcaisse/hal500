@@ -18,4 +18,15 @@ if is_happy:
 else:
 	print "Oh... Well, go outside and do something fun!"
 
+fav_turtle = raw_input("So, who is your favorite ninja turtle? ")
+
+turtles = ["Leonardo", "Raphael", "Donatello", "Michelangelo"]
+
+for turtle in turtles:
+	first_letter = turtle[:1]
+	if fav_turtle == turtle:
+		print "Yeah, %s was my favorite too! " % turtle
+	elif fav_turtle.startswith(first_letter): 
+		print "Did you mean \"%s\"? I always liked him." % turtle
+
 print "Goodbye!"
