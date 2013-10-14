@@ -17,3 +17,5 @@ if is_happy:
 	print "I am glad to hear that! I am in a very good mood today."
 else:
 	print "Oh... Well, go outside and do something fun!"
+
+print "Goodbye!"
